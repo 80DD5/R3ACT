@@ -1,10 +1,11 @@
-<!-- Small PULSE Logo for Title -->
-<img src="https://raw.githubusercontent.com/B0DD5/R3ACT/main/PULSE%20Logo.ico" alt="PULSE Logo" width="100" height="100"/> 
 # R3ACT - RuneScape AutoScript Suite
 
 *Welcome to R3ACT, your ultimate RuneScape 3 Automation and Configuration Toolkit! Streamlining the scripting experience for RuneScape money-making methods, R3ACT introduces PULSE - Precision Utilities for Low-level Scripting Efficiency.*
 
 *Script Usage Note: Focus on the PULSE Config and Config files; avoid direct script modifications.*
+
+<!-- Small PULSE Logo for Title -->
+<img src="https://raw.githubusercontent.com/B0DD5/R3ACT/main/PULSE%20Logo.ico" alt="PULSE Logo" width="100" height="100"/>
 
 ## Core Advantages
 
@@ -56,7 +57,7 @@ Users can extensively customize the configuration for each script using the PULS
 
 ## Error Handling and Troubleshooting
 
-Encountering issues? (https://github.com/B0DD5/R3ACT) step-by-step solutions. Avoid common pitfalls during setup and execution.
+Encountering issues? [open an issue](https://github.com/B0DD5/R3ACT/issues). The step-by-step installations are provided to avoid common pitfalls during setup and execution.
 
 ## Security Measures
 
