@@ -1,56 +1,155 @@
-# R3ACT - RuneScape 3 Automation and Configuration Toolkit
+<!-- Small PULSE Logo for Title -->
+<img src="https://raw.githubusercontent.com/B0DD5/R3ACT/main/PULSE%20Logo.ico" alt="PULSE Logo" width="100" height="100"/>
 
-## Introduction
+# R3ACT - RuneScape AutoScript Suite
 
-Welcome to R3ACT, your ultimate RuneScape 3 Automation and Configuration Toolkit, designed to streamline the scripting experience, offering options, customizability, and ease of use. R3ACT primarily focuses on enhancing money-making methods outlined on the RS£ Wiki Page.
+*Welcome to R3ACT, your ultimate RuneScape 3 Automation and Configuration Toolkit! Streamlining the scripting experience for RuneScape money-making methods, R3ACT introduces PULSE - Precision Utilities for Low-level Scripting Efficiency.*
 
-## PULSE - Precision Utilities for Low-level Scripting Efficiency
+<!-- Large PULSE Logo for Script Usage Note -->
+<img src="https://raw.githubusercontent.com/B0DD5/R3ACT/main/PULSE%20Logo.ico" alt="PULSE Logo" width="400" height="400"/>
 
-PULSE serves as the backbone of R3ACT, aiming to simplify the configuration process of scripting. It functions as "Precision Utilities for Low-level Scripting Efficiency," allowing users to easily run scripts while providing individual customization options. PULSE takes users away from the complexity of R3ACT's code, emphasizing user-friendly customization.
+*Script Usage Note: Focus on the PULSE Config and Config files; avoid direct script modifications.*
 
 ## Core Advantages
 
-1. **Streamlined Automation:**
-   - Free up your time by allowing easy execution of scripts without intricate user interventions. Just choose a skill or activity to bot, run the script with guidance through the user interface and notes.
+1. **Effortless Automation:**
+   - Execute tasks seamlessly with minimal user intervention.
+   - Choose a script, follow the intuitive interface, and let automation do the work.
 
-2. **Customizable Scripts:**
-   - Leverage the open-source framework of PULSE to customize scripts according to your preferences. Customize time-delays, randomness, click locations, length of time ran, and differentiate item and activity settings within single scripts through the provided config file.
+2. **Adaptable Customization:**
+   - Customize scripts easily with the open-source PULSE framework.
+   - Fine-tune time-delays, click locations, and more using a simple config file.
 
-3. **Enhanced Convenience:**
-   - Enjoy in-game convenience with features like portable renewals, crafting efficiency, and combat actions. The advantage of PULSE allows users to focus on adjusting settings in the PULSE Config and Config files, avoiding direct modifications to scripts.
+3. **Ultimate Convenience:**
+   - In-game features like portable renewals and crafting efficiency are seamlessly integrated.
+   - Modify settings conveniently through PULSE Config and Config files.
 
-## Getting Started with R3ACT
+4. **Stealthy Anti-Detection:**
+   - Introduce variability for human-like automation.
+   - Mitigate detection risk with unpredictable patterns.
+   - Configure auto-logout for added security and align with natural breaks in gameplay to reduce detection risk.
 
-Initiating R3ACT is a straightforward process. Access the latest version from the GitHub repository and follow the provided documentation for a seamless setup.
+## Essential Requirements
 
-### Script Usage Note
+To run the scripts:
+   - Ensure AutoHotkey 1.1 (AHK) is installed.
+   - Download AHK from the [official website](https://www.autohotkey.com/).
+   - For an enhanced experience, use Sublime Text for editing configuration files.
 
-No need to modify the scripts directly; concentrate on the PULSE Config and Config files.
+## General Information
 
-### Essential Requirements
+*Hotkeys:*
+- **Start:** F9
+- **Pause/Coordinates:** F10
+- **Resume/Config:** F11
+- **Exit:** F12
 
-To run the scripts in this project, ensure you have AutoHotkey 1.1 (AHK) installed on your system. All scripts are provided in an uncompiled format, requiring AHK for execution. Download AutoHotkey from the [official website](https://www.autohotkey.com/).
+*Note: The folders are categorized by Skill and then Activity within that. The installation process involves:*
+   1. Download the R3ACT repository.
+   2. Place the repository folder (R3ACT) somewhere convenient.
+   3. Navigate to the desired script folder based on Skill -> Activity.
+   4. Edit the 'Config' file to suit your needs (coordinates for clicking can be defined later using the GUI once the script is run).
+   5. Compile the AHK script.
+   6. Run the script.
+   7. Edit Coordinates if required.
+   8. Enter the desired amount of times to complete the activity and enjoy.
 
-For an enhanced and streamlined experience, we recommend using Sublime Text for editing configuration files.
+## Configuration Customization
 
-## PULSE Scripts in R3ACT (growing list)
+Users can extensively customize the configuration for each script using the PULSE framework. Specific elements that are configurable include time-delays, randomness, click locations, length of time ran, and different item and activity settings within single scripts through the provided config file. This allows users to tailor scripts according to their preferences, providing a high degree of flexibility and personalization.
+
+## Error Handling and Troubleshooting
+
+Encountering issues? (https://github.com/B0DD5/R3ACT) step-by-step solutions. Avoid common pitfalls during setup and execution.
+
+## Security Measures
+
+*Important:* This toolkit is provided "as-is," and users should be aware of the risks associated with using third-party tools in online games. Follow best practices to minimize risks, such as avoiding prolonged usage (running the bot for too long) and refraining from using it on accounts you're not willing to lose. Ensure proper breaks (separate from the in-built AFK timers) to avoid detection, as no human plays 18+ hours a day, 7 days a week regularly.
+
+## PULSE Scripts in R3ACT
 
 Explore our growing list of PULSE Scripts, each designed to enhance specific aspects of RuneScape 3 gameplay. Contribute your scripts and be part of our thriving community.
 
-#### 1. Necromancy Automation Scripts
+1. **Construction Automation Scripts:**
+   - Effortlessly craft planks, refined planks, and wooden frames at Fort Forinthry.
+   - Streamline construction tasks with customizable actions and randomization.
+   - *Features:*
+      - Plank Maker, Refined Plank Maker, Both Plank Maker, and Frame Maker tasks seamlessly.
+      - Configure tasks and settings effortlessly through the GUI.
+      - Hotkeys for convenient control.
+      - GUI customization options for transparency and position adjustments.
+      - Incorporate randomized sleep intervals for natural, human-like actions.
+      - Logout option with configurable coordinates for enhanced safety.
+   - *Usage:*
+      1. Select the script for the desired construction task.
+      2. Customize settings via the GUI or configuration file.
+      3. Manage tasks conveniently using hotkeys and GUI.
+      4. Enjoy automated fort construction with safety and customization.
 
-Automate Necromancy Rituals in RuneScape 3 with this AutoHotKey script, guided by PULSE. Customize relic interactions, repairs, and rituals for a more human-like experience, enhancing your Necromancy skills.
+2. **Fletching Automation Scripts:**
+   - Expand crafting capabilities with seamless arrow shaft cutting and fletching of headless arrows.
+   - Customize preferences and intervals for an enhanced fletching experience.
+   - *Features:*
+      - Automate Shaft Cutting and Arrow Fletching tasks effortlessly.
+      - Choose tasks and configure settings through the intuitive GUI.
+      - Customizable hotkeys for streamlined control.
+      - GUI customization options include transparency and position adjustments.
+      - Randomized sleep intervals enhance safety during automation.
+   - *Usage:*
+      1. Select the script (arrow cutting or arrow fletching).
+      2. Customize settings via the GUI or configuration file.
+      3. Utilize hotkeys and GUI for easy management.
+      4. Experience efficient and human-like fletching automation.
 
-#### 2. Forinthry Planks Automation Scripts
+3. **Necromancy Automation Scripts:**
+   - Automate Necromancy Rituals with PULSE guidance.
+   - Customize relic interactions, repairs, and rituals for a human-like experience.
+   - *Features:*
+      - Automate Necroplasm and Material Rituals tasks effortlessly.
+      - Configure tasks and settings through a user-friendly GUI.
+      - Customizable hotkeys for easy control.
+      - GUI allows for transparency and position adjustments.
+      - Integrate randomized sleep intervals for natural, human-like actions.
+      - Logout option with configurable coordinates for added safety.
+   - *Usage:*
+      1. Select the script (necroplasm or material rituals).
+      2. Customize tasks and settings using the GUI or by editing the configuration file.
+      3. Utilize hotkeys for seamless control and monitoring.
+      4. Enjoy automated gameplay with enhanced realism.
 
-Effortlessly craft planks, refined planks, and wooden frames in RuneScape 3 at Fort Forinthry with this AutoHotKey-powered script, influenced by PULSE. Streamline construction tasks with customizable actions and randomization for efficient crafting in Gielinor.
+## Future Roadmap
 
-#### 3. Fletching Automation Scripts
+Upcoming features, improvements, and additional scripts. Scripts in development:
 
-Expand your crafting capabilities in RuneScape 3 with this AutoHotKey script tailored by PULSE. This script enables the seamless cutting of arrow shafts and fletching of headless arrows. Customize your preferences, set optimal intervals, and enjoy an enhanced fletching experience in Gielinor.
+- **Agility**
+   - Bones to Bananas
+   - Alchemy
+   - Jewellery Enchanting
+- **Crafting**
+   - Armour
+   - Armour (Portables)
+   - Glassblowing
+   - Jewellery Crafting
+- **Fletching**
+   - Bow Cutting
+   - Bow Stringing
+   - Bow Cutting (Portable)
+   - Bow Stringing (Portable)
+- **Smithing**
+   - Bar Smelting
+   - Smithing
+- **Herblore**
+   - Herb Cleaning
+   - Potions
+   - Potions (Portables)
+- **Cooking**
+   - Wine Making
+   - Portable Range
+- **Firemaking**
+   - Portable Range
 
-## Join the R3ACT Community
+## Contact
+For support or questions, feel free to [open an issue](https://github.com/B0DD5/R3ACT/issues).
 
-Become a part of the R3ACT community on GitHub to share insights, collaborate with fellow players, and collectively shape the evolution of PULSE and the entire R3ACT project. Let's redefine the possibilities of RuneScape 3 automation and scripting together.
-
-**Happy Scripting and Gaming!**
+## License
+This project is licensed under the [MIT License](LICENSE).
