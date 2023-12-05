@@ -1,5 +1,6 @@
 <!-- Small PULSE Logo for Title -->
-<img src="https://raw.githubusercontent.com/B0DD5/R3ACT/main/PULSE%20Logo.ico" alt="PULSE Logo" width="100" height="100"/> # R3ACT - RuneScape AutoScript Suite
+<img src="https://raw.githubusercontent.com/B0DD5/R3ACT/main/PULSE%20Logo.ico" alt="PULSE Logo" width="100" height="100"/> 
+# R3ACT - RuneScape AutoScript Suite
 
 *Welcome to R3ACT, your ultimate RuneScape 3 Automation and Configuration Toolkit! Streamlining the scripting experience for RuneScape money-making methods, R3ACT introduces PULSE - Precision Utilities for Low-level Scripting Efficiency.*
 
