@@ -1,4 +1,4 @@
-# R3ACT - RuneScape 3 Automation and Configuration Toolkit
+# R3ACT - RuneScape AutoScript Suite
 
 *Welcome to R3ACT, your ultimate RuneScape 3 Automation and Configuration Toolkit! Streamlining the scripting experience for RuneScape money-making methods, R3ACT introduces PULSE - Precision Utilities for Low-level Scripting Efficiency.*
 
@@ -57,7 +57,7 @@ Users can extensively customize the configuration for each script using the PULS
 
 ## Error Handling and Troubleshooting
 
-Encountering issues? [open an issue](https://github.com/B0DD5/R3ACT/issues). The step-by-step installations are provided to avoid common pitfalls during setup and execution.
+Encountering issues? (https://github.com/B0DD5/R3ACT) step-by-step solutions. Avoid common pitfalls during setup and execution.
 
 ## Security Measures
 
